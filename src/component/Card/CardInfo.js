@@ -18,7 +18,7 @@ const CardInfo = ({cardData, removeCurrencyAction, baseCurrency, index}) => {
                 </div>
             </div>
             <div className="cardButtonContainer">
-                <Button tooltip className='btnCardRemove' type="primary" block onClick={e => removeCurrencyAction(cardData.id)}>
+                <Button className='btnCardRemove' type="primary" block onClick={e => removeCurrencyAction(cardData.id)}>
                     <Icon type="minus-circle" />
                 </Button>
             </div>

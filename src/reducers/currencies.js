@@ -1,6 +1,6 @@
 import { SET_CURRENCY_EXCHANGE_RATES, ADD_CURRENCY_AMOUNT,  SET_BASE_CURRENCY, ADD_CURRENCY, REMOVE_CURRENCY } from '../actionTypes';
 const initialState = {
-    baseCurrency: '',
+    baseCurrency: 'USD',
     amount: 1,
     forexData: [],
     currenciesCard: [],
