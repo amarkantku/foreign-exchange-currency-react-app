@@ -14,3 +14,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
 
+## Build docker image
+
+docker build . -t react-docker
+
+## Run docker container
+
+docker run -p 8000:80 react-docker and navigate to http://localhost:8000/ in browser
+
+
