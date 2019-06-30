@@ -1,0 +1,47 @@
+.cardWrapper {
+    width: 100%;
+    border: 1px solid #d7d7da;
+    float: left;
+    padding: 0 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+  }
+  .cardWrapper p {
+   line-height: 2;
+  }
+  .cardBody {
+    width: 80%;
+    float: left;
+    border-right: 1px solid #d7d7da;
+    box-sizing: border-box;
+  }
+  .cardTitle {
+    float: left;
+    width: 100%;
+    font-size: 14px;
+  }
+  .cardTitle p {
+    margin-bottom: 0px;
+  }
+  .cardTitle.left {
+    float: left;
+    width: 20%;
+    text-align: left;
+    box-sizing: border-box;
+  }
+  .cardTitle.right {
+    float: left;
+    width: 80%;
+    padding-right: 10px;
+    text-align: right;
+    box-sizing: border-box;
+  }
+  .cardText {
+    float: left;
+    width: 100%;
+    font-size: 12px;
+  }
+  .cardButtonContainer {
+    margin: 30px 0 0 10px;
+    float: left;
+  }

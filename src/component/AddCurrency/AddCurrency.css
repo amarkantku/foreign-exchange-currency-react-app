@@ -1,0 +1,8 @@
+.addCurrency {
+    width: 300px;
+    float: left;
+}
+.btnSubmit {
+    float: right;
+    width: 100px;
+}
