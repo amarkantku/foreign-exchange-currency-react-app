@@ -38,7 +38,7 @@
   "devDependencies": {
     "axios": "^0.19.0",
     "lodash": "^4.17.11",
-    "qs": "^6.7.0",
+    "qs": "^6.7.3",
     "shortid": "^2.2.14",
     "styled-components": "^4.3.2"
   }
